@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="The UT Dallas subchapter of the Information Systems Security Association. Our mission is to spread cybersecurity awareness and knowledge by exploring the integration of business, IT, and cybersecurity. ISSA's goals are to promote security education and skills development, encourage free information exchanges, communicate current events within the security industry, and help express the importance of security controls to enterprise business management.">
     <meta name="author" content="Leo Bala">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <title>ISSA UTD</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
         <div class="container">
-          <a class="navbar-brand" href="#page-top">
-            <img src="assets/issalogo.jpg" alt="Logo" width="50" class="d-inline-block align-text-middle">
+          <a class="navbar-brand" href="#">
+            <img src="assets/issalogo.png" alt="Logo" width="50" class="d-inline-block align-text-middle">
             ISSA UTD
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,12 +28,147 @@
           </div>
         </div>
     </nav>
-    <header class="about">
+    <header class="jumbotron jumbotron-fluid">
         <div class="container">
-            <div class="about-heading">Hi! We're the student subchapter of the Information Systems Security Association at UT Dallas. We're gearing up to kickoff in Spring 2023. Connect with us!</div>
+            <div class="row">
+                <div class="col-lg-7">
+                    <h1 class="display-4">Hi! We're the student subchapter of <a href="https://www.ntxissa.org" class="text-decoration-none text-white">North Texas ISSA</a> at UT Dallas.</h1>
+                    <p class="lead">The <a href="https://www.issa.org" class="text-decoration-none text-white">Information Systems Security Association (ISSA)</a> is an internationally recognized organization for cybersecurity professionals. We're connecting ISSA to the UTD community to spread cybersecurity awareness and knowledge by exploring the integration of business, IT, and security. No matter your experience, come grow your future career with us.</p>
+                </div>
+            </div>
         </div>
+      </div>
     </header>
-    <section id="meetings"></section>
-    <section id="team"></section>
+    <section class="page-section" id="meetings">
+        <div class="container">
+            <div class="text-center text-white">
+                <h2 class="section-heading">Meetings</h2>
+            </div>
+            <div class="row">
+                <div class="py-4 col-md-6 col-xl-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/meetingimageplaceholder.jpg" alt="Meeting image placeholder">
+                        <div class="card-header bg-success text-white">Next meeting: Sep 23, 2022</div>
+                        <div class="d-flex flex-column card-body">
+                            <h5 class="card-title">ISSA Conference</h5>
+                            <p class="card-text">We are attending Cybersecurity Conference 10 presented by NTX ISSA on Sep 23. There will be professional development and food. Tickets are $35 for students. Be there!</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-primary">RSVP</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-dark"><a href="https://www.eventbrite.com/e/10th-annual-cybersecurity-conference-tickets-373387410797" class="text-white text-decoration-none">Details</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-4 col-md-6 col-xl-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/meetingimageplaceholder.jpg" alt="Meeting image placeholder">
+                        <div class="card-header bg-secondary text-white">Past meeting: Sep 10, 2022</div>
+                        <div class="d-flex flex-column card-body">
+                            <h5 class="card-title">Meeting about this</h5>
+                            <p class="card-text">In this meeting we discussed a b and c.</p>
+                            <div class="row mt-auto">
+                                <div class="col"></div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-dark">Notes</button>
+                                </div>
+                                <div class="col"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-4 col-md-6 col-xl-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/meetingimageplaceholder.jpg" alt="Meeting image placeholder">
+                        <div class="card-header bg-secondary text-white">Past meeting: Sep 9, 2022</div>
+                        <div class="d-flex flex-column card-body">
+                            <h5 class="card-title">Meeting about that</h5>
+                            <p class="card-text">In this meeting we went over x y and z.</p>
+                            <div class="row mt-auto">
+                                <div class="col"></div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-dark">Notes</button>
+                                </div>
+                                <div class="col"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page-section bg-dark" id="team">
+        <div class="container">
+            <div class="text-center text-white">
+                <h2 class="section-heading">Officers</h2>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-4 col-xl-2">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/emptyprofile.png" alt="Akash Taduri's picture" />
+                        <h4 class="text-white">Akash Taduri</h4>
+                        <p class="text-muted">President</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/emptyprofile.png" alt="Marzia Cava's picture" />
+                        <h4 class="text-white">Marzia Cava</h4>
+                        <p class="text-muted">Vice President (External Affairs)</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/emptyprofile.png" alt="Justin Heo's picture" />
+                        <h4 class="text-white">Justin Heo</h4>
+                        <p class="text-muted">Vice President (Internal Affairs), Secretary</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/emptyprofile.png" alt="Aravind Pallavoor's picture" />
+                        <h4 class="text-white">Aravind Pallavoor</h4>
+                        <p class="text-muted">Vice President (External Affairs)</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/emptyprofile.png" alt="Mehak Dhawan's picture" />
+                        <h4 class="text-white">Mehak Dhawan</h4>
+                        <p class="text-muted">Marketing</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/emptyprofile.png" alt="Leo Bala's picture" />
+                        <h4 class="text-white">Leo Bala</h4>
+                        <p class="text-muted">Head of Development</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center text-white">
+                <h2 class="section-heading">Faculty Sponsor</h2>
+            </div>
+            <div class = "row">
+                <div class="col">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/emptyprofile.png" alt="Anton Sobolev's picture" />
+                        <h4 class="text-white">Anton Sobolev</h4>
+                        <p class="text-muted">Assistant Professor of Political Economy and Cyber Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">  
+        <footer class="page-footer">
+            <div class="footer-copyright text-center text-muted py-3">
+                © 2022 ISSA Subchapter UTD • Site by <a href="https://www.github.com/th3bala" class="text-decoration-none">@th3bala</a>
+            </div>
+        </footer>   
+    </div>
 </body>
 </html>

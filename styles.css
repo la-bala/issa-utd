@@ -1,11 +1,44 @@
-header.about {
+.jumbotron {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
-    text-align: center;
     color: #fff;
     background-image: url("../assets/header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-  }
+}
+.navbar-brand img {
+    padding: 0 0.1em;
+}
+.page-section {
+    padding: 2.5rem 0;
+}
+.page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+}
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.team-member img {
+    width: 10rem;
+    height: 10rem;
+    border: 0.4rem solid rgba(226, 226, 226, 0.352);
+}
+.team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+#meetings {
+    background-color: #111;
+}
+.card {
+    height: 100%;
+    background-color: #eee;
+}
+.card button {
+    width:100%;
+}
