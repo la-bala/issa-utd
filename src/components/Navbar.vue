@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <RouterLink class="navbar-brand" to="/">
-        <img src="../assets/issalogo.png" alt="Logo" width="50" class="d-inline-block align-text-middle">
+        <img src="../assets/issalogo.png" alt="Logo" width="50" class="d-inline-block align-text-middle mx-1">
         <span>ISSA UTD</span>
       </RouterLink>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -2,7 +2,7 @@
     padding-top: 10.5rem;
     padding-bottom: 6rem;
     color: #fff;
-    background-image: url("jumbotron-bg.png");
+    background-image: url("jumbotron-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -42,15 +42,19 @@
 .card .btn {
     width:100%;
 }
-.jumbotron a {
+.jumbotron a, footer a {
     color: white;
 }
-.jumbotron a:hover {
+.jumbotron a:hover, footer a:hover {
     color: #80e8ff;
     text-shadow: 0 0 5px #80e8ff;
 }
 span, .nav-link {
     text-shadow: 1px 1px 4px black, -1px -1px 4px black;
+}
+nav {
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 }
 #meetingLocation {
     background-color: #ddd;
