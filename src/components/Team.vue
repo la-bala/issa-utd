@@ -2,6 +2,9 @@
     <section class="page-section bg-dark" id="team">
         <div class="container">
             <div class="text-center text-white">
+                <h1 class="section-heading">Our Team</h1>
+            </div>
+            <div class="text-center text-white">
                 <h2 class="section-heading">Officers</h2>
             </div>
             <div class="row">
@@ -49,6 +52,14 @@
                 </div>
             </div>
             <div class="text-center text-white">
+                <h2 class="section-heading">Members</h2>
+            </div>
+            <div class = "row text-center">
+                <div class="col md-6">
+                    <a class="btn btn-outline-light" href="https://forms.gle/ia2mQmjxkFjtSsSB9" target="_blank" rel="noopener noreferrer" role="button">Join ISSA UTD</a>
+                </div>
+            </div>
+            <div class="text-center text-white">
                 <h2 class="section-heading">Faculty Sponsor</h2>
             </div>
             <div class = "row">
@@ -59,6 +70,9 @@
                         <p class="text-muted">Assistant Professor of Political Economy and Cyber Policy</p>
                     </div>
                 </div>
+            </div>
+            <div class="text-center text-white">
+                <h2 class="section-heading">Alumni</h2>
             </div>
         </div>
     </section>

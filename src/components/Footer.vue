@@ -16,9 +16,9 @@ export default {
     <div class="container">    
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center pb-3 mb-3">
-                <li class="ms-3"><DiscordIcon width="32" height="32"/></li>
-                <li class="ms-3"><InstagramIcon width="32" height="32"/></li>
-                <li class="ms-3"><EmailIcon width="32" height="32"/></li>
+                <li class=""><DiscordIcon :width="32" :height="32"/></li>
+                <li class="ms-3"><InstagramIcon :width="32" :height="32"/></li>
+                <li class="ms-3"><EmailIcon :width="32" :height="32"/></li>
             </ul>
             <p class="text-center text-muted">© 2022 ISSA Subchapter UTD • Site by <a href="https://www.github.com/th3bala" class="text-decoration-none" target="_blank" rel="noopener noreferrer">@th3bala</a></p>
         </footer>

@@ -1,3 +1,39 @@
+<script>
+export default {
+    data() {
+        return {
+            links: [
+                {
+                    id: 0,
+                    to: '/',
+                    name: 'Home'
+                },
+                {
+                    id: 1,
+                    to: '/about',
+                    name: 'About'
+                },
+                {
+                    id: 2,
+                    to: '/contact',
+                    name: 'Contact'
+                },
+                {
+                    id: 3,
+                    to: '/calendar',
+                    name: 'Calendar'
+                },
+            ]
+        }
+    },
+    computed: {
+        currentPath() {
+            return this.$route.path;
+        }
+    }
+}
+</script>
+
 <template>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
     <div class="container">
@@ -10,10 +46,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <div class="navbar-nav text-uppercase ms-auto py-4 py-md-0">
-            <RouterLink class="nav-link" to="/">Home</RouterLink>
-            <RouterLink class="nav-link" to="/about">About</RouterLink>
-            <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
-            <RouterLink class="nav-link" to="/calendar">Calendar</RouterLink>
+            <RouterLink v-for="link in links" :class="link.to === currentPath ? 'nav-link text-white' : 'nav-link'" v-bind:to="link.to">{{link.name}}</RouterLink>
         </div>
       </div>
     </div>
