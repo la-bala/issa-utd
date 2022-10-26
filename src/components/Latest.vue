@@ -6,37 +6,6 @@ export default {
     components: {
         ClockIcon,
         LocationIcon
-    },
-    data() {
-        return {
-            links: [
-                {
-                    id: 0,
-                    src: '../assets/ntxissaconf/0.png',
-                    name: 'Home'
-                },
-                {
-                    id: 1,
-                    to: '/about',
-                    name: 'About'
-                },
-                {
-                    id: 2,
-                    to: '/contact',
-                    name: 'Contact'
-                },
-                {
-                    id: 3,
-                    to: '/calendar',
-                    name: 'Calendar'
-                },
-            ]
-        }
-    },
-    methods: {
-        albumPicturePath(i) {
-            return "src/assets/ntxissaconf" + i + ".png"
-        }
     }
 }
 </script>
@@ -55,8 +24,14 @@ export default {
                                 <button v-for="i in 3" type="button" data-bs-target="#carousel" :data-bs-slide-to=i-1 :class="i === 1 ? 'active' : ''" :aria-current="i === 1 ? 'true' : ''" :aria-label="'Slide ' + i"></button>
                             </div>
                             <div class="carousel-inner">
-                                <div v-for="i in 3" :class="i === 1 ? 'carousel-item active' : 'carousel-item'">
-                                    <img class="d-block w-100" :src=albumPicturePath(i) :alt="'Slide ' + i">
+                                <div class='carousel-item active'>
+                                    <img class="d-block w-100" src="../assets/ntxissaconf/0.png" alt="Slide 0">
+                                </div>
+                                <div class='carousel-item'>
+                                    <img class="d-block w-100" src="../assets/ntxissaconf/1.png" alt="Slide 1">
+                                </div>
+                                <div class='carousel-item'>
+                                    <img class="d-block w-100" src="../assets/ntxissaconf/2.png" alt="Slide 2">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
