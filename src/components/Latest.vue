@@ -35,7 +35,7 @@ export default {
     },
     methods: {
         albumPicturePath(i) {
-            return "../assets/ntxissaconf/" + i + ".png"
+            return "src/assets/ntxissaconf" + i + ".png"
         }
     }
 }
