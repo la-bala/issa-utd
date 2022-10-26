@@ -35,7 +35,7 @@ export default {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="mainNav">
     <div class="container">
       <RouterLink class="navbar-brand" to="/">
         <img src="../assets/issalogo.png" alt="Logo" width="50" class="d-inline-block align-text-middle mx-1">

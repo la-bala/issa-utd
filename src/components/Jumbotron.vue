@@ -22,9 +22,9 @@ export default {
                 </div>
                 <div class="col-lg-2 mb-3">
                     <p class="lead fst-italic">connect with us!</p>
-                    <DiscordIcon :width="32" :height="32"/>
-                    <InstagramIcon :width="32" :height="32"/>
-                    <EmailIcon :width="32" :height="32"/>
+                    <DiscordIcon :size="32"/>
+                    <InstagramIcon :size="32"/>
+                    <EmailIcon :size="32"/>
                 </div>
                 <div class="col-lg-2">
                     <p class="lead fst-italic">join us!</p>
