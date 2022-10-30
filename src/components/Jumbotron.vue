@@ -2,12 +2,14 @@
 import DiscordIcon from './icons/DiscordIcon.vue';
 import EmailIcon from './icons/EmailIcon.vue';
 import InstagramIcon from './icons/InstagramIcon.vue';
+import TwitterIcon from './icons/TwitterIcon.vue';
 
 export default {
     components: {
         DiscordIcon,
         EmailIcon,
-        InstagramIcon
+        InstagramIcon,
+        TwitterIcon
     }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
                     <p class="lead fst-italic">connect with us!</p>
                     <DiscordIcon :size="32"/>
                     <InstagramIcon :size="32"/>
+                    <TwitterIcon :size="32"/>
                     <EmailIcon :size="32"/>
                 </div>
                 <div class="col-lg-2">

@@ -1,5 +1,5 @@
 <template>
-    <section class="page-section" id="meetings">
+    <section class="page-section" id="calendar">
         <div class="container">
             <div class="text-center text-white">
                 <h2 class="section-heading">Event Calendar</h2>

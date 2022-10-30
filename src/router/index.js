@@ -27,7 +27,10 @@ const router = createRouter({
       name: 'calendar',
       component: CalendarView
     }
-  ]
+  ],
+  scrollBehavior() {
+    document.getElementById('app').scrollIntoView();
+  }
 })
 
 export default router
