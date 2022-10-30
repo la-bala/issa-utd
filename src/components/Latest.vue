@@ -14,7 +14,7 @@ export default {
     <section class="page-section" id="meetings">
         <div class="container">
             <div class="text-center text-white">
-                <h2 class="section-heading">Latest</h2>
+                <h2 class="section-heading">Latest Event</h2>
             </div>
             <div class="row justify-content-center">
                 <div class="py-2 col-md-8 col-xl-6">
@@ -60,7 +60,7 @@ export default {
                             </p>
                             <div class="row justify-content-center">
                                 <div class="col-6">
-                                    <a class="btn btn-primary" role="button">Read more</a>
+                                    <a class="btn btn-primary" role="button">Read More</a>
                                 </div>
                             </div>
                         </div>

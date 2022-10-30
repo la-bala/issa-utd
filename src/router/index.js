@@ -1,8 +1,11 @@
-import { createRouter, createWebHistory} from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import AboutView from '../views/AboutView.vue'
-import CalendarView from '../views/CalendarView.vue'
-import ContactView from '../views/ContactView.vue'
+
+//Lazy load routes
+const AboutView = () => import('../views/AboutView.vue')
+const EventsView = () => import('../views/EventsView.vue')
+const ContactView = () => import('../views/ContactView.vue')
+const BlogView = () => import('../views/BlogView.vue')
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,9 +26,14 @@ const router = createRouter({
       component: ContactView
     },
     {
-      path: '/calendar',
-      name: 'calendar',
-      component: CalendarView
+      path: '/events',
+      name: 'events',
+      component: EventsView
+    },
+    {
+      path: '/blog',
+      name: 'blog',
+      component: BlogView
     }
   ],
   scrollBehavior() {

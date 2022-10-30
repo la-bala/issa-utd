@@ -1,12 +1,12 @@
 <script>
-import Jumbotron from '../components/Jumbotron.vue';
-import Upcoming from '../components/Upcoming.vue';
+import JumbotronHome from '../components/JumbotronHome.vue';
+import NextEvent from '../components/NextEvent.vue';
 import Latest from '../components/Latest.vue';
 
 export default {
     components: {
-        Jumbotron,
-        Upcoming,
+        JumbotronHome,
+        NextEvent,
         Latest
     }
 }
@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <Jumbotron/>
+  <JumbotronHome/>
   <Latest/>
-  <Upcoming/>
+  <NextEvent/>
 </template>

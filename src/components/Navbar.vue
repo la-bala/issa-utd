@@ -20,8 +20,13 @@ export default {
                 },
                 {
                     id: 3,
-                    to: '/calendar',
-                    name: 'Calendar'
+                    to: '/events',
+                    name: 'Events'
+                },
+                {
+                    id: 4,
+                    to: '/blog',
+                    name: 'Blog'
                 },
             ]
         }
