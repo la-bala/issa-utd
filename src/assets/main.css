@@ -2,11 +2,25 @@
     padding-top: 10.5rem;
     padding-bottom: 6rem;
     color: #fff;
-    background-image: url("jumbotron-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+}
+#j-home {
+    background-image: url("jumbotron-bg0.jpg");
+}
+#j-about {
+    background-image: url("jumbotron-bg4.jpg");
+}
+#j-contact {
+    background-image: url("jumbotron-bg2.jpg");
+}
+#j-events {
+    background-image: url("jumbotron-bg1.jpg");
+}
+#j-blog {
+    background-image: url("jumbotron-bg3.jpg");
 }
 .navbar-brand img {
     padding: 0 0.1em;
@@ -47,7 +61,7 @@ h1.section-heading {
     height: 100%;
 }
 .card .btn {
-    width:100%;
+    width: 100%;
 }
 .icon-link {
     color: white;
@@ -61,4 +75,10 @@ h1.section-heading {
 .text-decoration-none:hover {
     color: #80e8ff;
     text-shadow: 0 0 8px white;
+}
+#calendar .card {
+    background-color: #111;
+}
+#calendar .card:hover {
+    background-color: #222;
 }

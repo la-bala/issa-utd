@@ -15,8 +15,8 @@ export default {
 </script>
 
 <template>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <header id="j-home" class="jumbotron jumbotron-fluid">
+        <div class="container" crossorigin="anonymous">
             <div class="row">
                 <div class="col-lg-7">
                     <h1 class="display-4">Hi! We're the student subchapter of <a href="https://www.ntxissa.org" class="text-decoration-none" target="_blank" rel="noopener noreferrer">North Texas ISSA</a> at <a href="https://www.utdallas.edu" class="text-decoration-none" target="_blank" rel="noopener noreferrer">UT Dallas.</a></h1>

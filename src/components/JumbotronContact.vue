@@ -1,5 +1,5 @@
 <template>
-    <header class="jumbotron jumbotron-fluid">
+    <header id="j-contact" class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">

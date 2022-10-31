@@ -46,11 +46,11 @@ export default {
                         <ul class="list-group list-group-flush border border-0">
                             <li class="list-group-item border border-0 bg-dark text-white">
                                 <ClockIcon :size="16"/>
-                                Sep 23, 2022
+                                <span class="ms-1"> Sep 23, 2022</span>
                             </li>
                             <li class="list-group-item border border-0 bg-dark text-white" id="meetingLocation">
                                 <LocationIcon :size="16"/>
-                                Collin College - Spring Creek Campus
+                                <span class="ms-1"> Collin College - Spring Creek Campus</span>
                             </li>
                         </ul>
                         <div class="d-flex flex-column card-body">

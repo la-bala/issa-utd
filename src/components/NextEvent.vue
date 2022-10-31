@@ -19,21 +19,21 @@ export default {
         <div class="row justify-content-center">
             <div class="py-4 col-md-8 col-xl-6">
                 <div class="card bg-dark text-white border border-secondary">
-                    <img class="card-img-top" src="../assets/launch.jpg" alt="Meeting image placeholder">
+                    <img class="card-img-top" src="../assets/lunchandlearn.jpg" alt="Meeting image placeholder">
                     <ul class="list-group list-group-flush border border-0">
-                        <li class="list-group-item border border-0 bg-dark text-white">
-                            <ClockIcon :size="16"/>
-                            Spring 2023 - TBD
-                        </li>
-                        <li class="list-group-item border border-0 bg-dark text-white" id="meetingLocation">
-                            <LocationIcon :size="16"/>
-                            TBD
-                        </li>
-                    </ul>
+                            <li class="list-group-item border border-0 bg-dark text-white">
+                                <ClockIcon :size="16"/>
+                                <span class="ms-1"> Nov 2022 - TBD</span>
+                            </li>
+                            <li class="list-group-item border border-0 bg-dark text-white" id="meetingLocation">
+                                <LocationIcon :size="16"/>
+                                <span class="ms-1"> TBD</span>
+                            </li>
+                        </ul>
                     <div class="d-flex flex-column card-body">
                         <h5 class="card-title">ISSA UTD Kickoff</h5>
                         <p class="card-text">
-                            After approval from NTX ISSA and the UTD SOC, ISSA UTD is ready to join the UTD community by officially kicking off next semester!
+                            We're joining North Texas ISSA for their monthly lunch and learn in November 2022. Date and location TBD.
                         </p>
                         <div class="row justify-content-center">
                             <div class="col-6">

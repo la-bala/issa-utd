@@ -1,5 +1,5 @@
 <template>
-    <header class="jumbotron jumbotron-fluid">
+    <header id="j-about" class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-lg-4">
                     <h1 class="display-5">Why join ISSA UTD?</h1>
-                    <p class="lead">We'll host educational events with accomplished professionals from North Texas ISSA and the broader cybersecurity community on campus. In addition, members of ISSA UTD will be eligible to obtain a discounted ISSA membership. We welcome all students interested in business, IT, or security to join!</p>
+                    <p class="lead">We'll host educational events with accomplished professionals from North Texas ISSA and the broader cybersecurity community on campus. In addition, members of ISSA UTD will be eligible to obtain a discounted ISSA membership. We welcome all students interested in business, IT, or security to <a class="text-decoration-none" href="https://forms.gle/ia2mQmjxkFjtSsSB9" target="_blank" rel="noopener noreferrer">join!</a></p>
                 </div>
             </div>
         </div>
