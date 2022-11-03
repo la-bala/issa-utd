@@ -1,9 +1,11 @@
 <script>
+import csc10Thumb from '@/assets/csc10/thumb.jpg'
+
 export default {
     data() {
         return {
             posts: [
-                { slug: "csc10", title: "Our Visit to NTX ISSA's CSC10", date: "Sep 23, 2022", imgSrc: "../src/assets/csc10/thumb.jpg"}
+                { slug: "csc10", title: "Our Visit to NTX ISSA's CSC10", date: "Sep 23, 2022", imgSrc: csc10Thumb}
             ]
         }
     }
