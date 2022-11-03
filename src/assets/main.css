@@ -35,7 +35,7 @@
 #allUpcomingEventsBtn {
     width: 100%;
 }
-.page-section h2.section-heading, .page-section .section-heading.h2 {
+.page-section h2.section-heading {
     font-size: 2.5rem;
     margin-top: 1rem;
     margin-bottom: 2.5rem;
@@ -43,6 +43,10 @@
 h1.section-heading {
     font-size: 3rem;
     margin-bottom: 3rem;
+}
+.blog-post-title {
+    font-size: 2rem;
+    margin-top: 3rem;
 }
 .team-member {
     margin-bottom: 3rem;
@@ -81,4 +85,10 @@ h1.section-heading {
 }
 #calendar .card:hover {
     background-color: #222;
+}
+#blogMenu .card {
+    transition: box-shadow ease 0.5s;
+}
+#blogMenu .card:hover {
+    box-shadow: 0px 10px 20px 2px rgba(255, 255, 255, 0.25);
 }

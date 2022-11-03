@@ -1,4 +1,13 @@
+<script>
+import hackingintocsc10 from '../components/hackingintocsc10.vue';;
+
+export default {
+    components: {
+        hackingintocsc10
+    }
+}
+</script>
+
 <template>
-    <br/><br/>
-    <h1 class="text-white">Blog Post {{$route.params.slug}}</h1>
+    <component :is="$route.params.slug"></component>
 </template>

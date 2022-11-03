@@ -25,13 +25,13 @@ export default {
                             </div>
                             <div class="carousel-inner">
                                 <div class='carousel-item active'>
-                                    <img class="d-block w-100" src="../assets/csc10/0.jpg" alt="Slide 0">
+                                    <img class="d-block w-100" src="../assets/hackingintocsc10/0.jpg" alt="Slide 0">
                                 </div>
                                 <div class='carousel-item'>
-                                    <img class="d-block w-100" src="../assets/csc10/1.jpg" alt="Slide 1">
+                                    <img class="d-block w-100" src="../assets/hackingintocsc10/1.jpg" alt="Slide 1">
                                 </div>
                                 <div class='carousel-item'>
-                                    <img class="d-block w-100" src="../assets/csc10/2.jpg" alt="Slide 2">
+                                    <img class="d-block w-100" src="../assets/hackingintocsc10/2.jpg" alt="Slide 2">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -60,7 +60,9 @@ export default {
                             </p>
                             <div class="row justify-content-center">
                                 <div class="col-6">
-                                    <a class="btn btn-primary" role="button">Read More</a>
+                                    <RouterLink to="/blog/hackingintocsc10">
+                                        <a class="btn btn-primary" role="button">Read More</a>
+                                    </RouterLink>
                                 </div>
                             </div>
                         </div>
