@@ -1,41 +1,40 @@
 <script>
 export default {
-    data() {
-        return {
-            links: [
-                {
-                    id: 0,
-                    to: '/',
-                    name: 'Home'
-                },
-                {
-                    id: 1,
-                    to: '/about',
-                    name: 'About'
-                },
-                {
-                    id: 2,
-                    to: '/contact',
-                    name: 'Contact'
-                },
-                {
-                    id: 3,
-                    to: '/events',
-                    name: 'Events'
-                },
-                {
-                    id: 4,
-                    to: '/blog',
-                    name: 'Blog'
-                },
-            ]
-        }
-    },
-    computed: {
-        currentPath() {
-            return this.$route.path;
-        }
+  data() {
+      return {
+          links: [
+              {
+                  to: '/',
+                  name: 'Home'
+              },
+              {
+                  to: '/about',
+                  name: 'About'
+              },
+              {
+                  to: '/contact',
+                  name: 'Contact'
+              },
+              {
+                  to: '/events',
+                  name: 'Events'
+              },
+              {
+                  to: '/blog',
+                  name: 'Blog'
+              },
+          ]
+      }
+  },
+  methods: {
+    onPath(path) {
+      if(path === '/') {
+        return this.$route.path === path;
+      } else {
+        return this.$route.path.includes(path);
+      }
     }
+  }
 }
 </script>
 
@@ -51,7 +50,7 @@ export default {
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <div class="navbar-nav text-uppercase ms-auto py-4 py-md-0">
-            <RouterLink v-for="link in links" :class="link.to === currentPath ? 'nav-link text-white' : 'nav-link'" v-bind:to="link.to">{{link.name}}</RouterLink>
+            <RouterLink v-for="link in links" :class="onPath(link.to) ? 'nav-link text-white' : 'nav-link'" v-bind:to="link.to">{{link.name}}</RouterLink>
         </div>
       </div>
     </div>

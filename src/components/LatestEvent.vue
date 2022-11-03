@@ -25,13 +25,13 @@ export default {
                             </div>
                             <div class="carousel-inner">
                                 <div class='carousel-item active'>
-                                    <img class="d-block w-100" src="../assets/ntxissaconf/0.png" alt="Slide 0">
+                                    <img class="d-block w-100" src="../assets/csc10/0.jpg" alt="Slide 0">
                                 </div>
                                 <div class='carousel-item'>
-                                    <img class="d-block w-100" src="../assets/ntxissaconf/1.png" alt="Slide 1">
+                                    <img class="d-block w-100" src="../assets/csc10/1.jpg" alt="Slide 1">
                                 </div>
                                 <div class='carousel-item'>
-                                    <img class="d-block w-100" src="../assets/ntxissaconf/2.png" alt="Slide 2">
+                                    <img class="d-block w-100" src="../assets/csc10/2.jpg" alt="Slide 2">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
