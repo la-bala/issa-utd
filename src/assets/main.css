@@ -73,10 +73,10 @@ h1.section-heading {
 .icon-link:hover {
     color: #80e8ff;
 }
-.text-decoration-none {
+.jumbotron .text-decoration-none, footer .text-decoration-none {
     color: #a7efff;
 }
-.text-decoration-none:hover {
+.jumbotron .text-decoration-none:hover, footer .text-decoration-none:hover {
     color: #80e8ff;
     text-shadow: 0 0 8px white;
 }

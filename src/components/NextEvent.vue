@@ -23,21 +23,21 @@ export default {
                     <ul class="list-group list-group-flush border border-0">
                             <li class="list-group-item border border-0 bg-dark text-white">
                                 <ClockIcon :size="16"/>
-                                <span class="ms-1"> Nov 2022 - TBD</span>
+                                <span class="ms-1"> Nov 17, 2022 11:30am-1pm</span>
                             </li>
                             <li class="list-group-item border border-0 bg-dark text-white" id="meetingLocation">
                                 <LocationIcon :size="16"/>
-                                <span class="ms-1"> TBD</span>
+                                <span class="ms-1"> Maggiano's Little Italy</span>
                             </li>
                         </ul>
                     <div class="d-flex flex-column card-body">
-                        <h5 class="card-title">ISSA UTD Kickoff</h5>
+                        <h5 class="card-title">Lunch and Learn</h5>
                         <p class="card-text">
-                            We're joining North Texas ISSA for their monthly lunch and learn in November 2022. Date and location TBD.
+                            We're joining North Texas ISSA for their monthly lunch and learn. REGISTRATION REQUIRED as seating is limited.
                         </p>
                         <div class="row justify-content-center">
                             <div class="col-6">
-                                <a class="btn btn-primary" role="button">Read More</a>
+                                <a class="btn btn-primary" href="https://www.eventbrite.com/e/lunch-and-learn-maggianos-november-17-2022-registration-460584158617" target="_blank" rel="noopener noreferrer" role="button">RSVP</a>
                             </div>
                         </div>
                     </div>
