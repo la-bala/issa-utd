@@ -1,6 +1,6 @@
 <script>
 import Team from '../components/Team.vue';
-import JumbotronAbout from '../components/JumbotronAbout.vue';
+import JumbotronAbout from '../components/jumbotrons/JumbotronAbout.vue';
 
 export default {
     components: {

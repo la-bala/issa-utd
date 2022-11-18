@@ -1,5 +1,5 @@
 <script>
-import JumbotronHome from '../components/JumbotronHome.vue';
+import JumbotronHome from '../components/jumbotrons/JumbotronHome.vue';
 import NextEvent from '../components/NextEvent.vue';
 import LatestEvent from '../components/LatestEvent.vue';
 

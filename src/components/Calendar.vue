@@ -18,23 +18,6 @@ export default {
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <a class="text-decoration-none" href="https://www.eventbrite.com/e/lunch-and-learn-maggianos-november-17-2022-registration-460584158617" target="_blank" rel="noopener noreferrer"> 
-                        <div class="card text-white ps-2">
-                            <div class="row g-0" style="height:100%">
-                                <div class="col-4 my-auto">
-                                    <img src="../assets/lunchandlearn.jpg" class="img-fluid rounded" alt="Lunch and learn picture">
-                                </div>
-                                <div class="col-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title fw-bold">Lunch and Learn</h5>
-                                        <p class="card-text">We're joining North Texas ISSA for their monthly lunch and learn at Maggiano's Little Italy. REGISTRATION REQUIRED as seating is limited - click to register.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6">
                     <div class="card text-white ps-2">
                         <div class="row g-0" style="height:100%">
                             <div class="col-4 my-auto">
@@ -48,6 +31,23 @@ export default {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-6" hidden>
+                    <a class="text-decoration-none" href="#" target="_blank" rel="noopener noreferrer"> 
+                        <div class="card text-white ps-2">
+                            <div class="row g-0" style="height:100%">
+                                <div class="col-4 my-auto">
+                                    <img src="../assets/meetingimageplaceholder.jpg" class="img-fluid rounded" alt="Event thumbnail">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Next meeting</h5>
+                                        <p class="card-text">It's a meeting</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="text-center text-white mt-5">

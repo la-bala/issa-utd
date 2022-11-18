@@ -1,5 +1,5 @@
 <script>
-import hackingintocsc10 from '../components/hackingintocsc10.vue';;
+import hackingintocsc10 from '../components/blogs/hackingintocsc10.vue';;
 
 export default {
     components: {

@@ -1,27 +1,3 @@
-.jumbotron {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-}
-#j-home {
-    background-image: url("jumbotron-bg0.jpg");
-}
-#j-about {
-    background-image: url("jumbotron-bg4.jpg");
-}
-#j-contact {
-    background-image: url("jumbotron-bg2.jpg");
-}
-#j-events {
-    background-image: url("jumbotron-bg1.jpg");
-}
-#j-blog {
-    background-image: url("jumbotron-bg3.jpg");
-}
 .navbar-brand img {
     padding: 0 0.1em;
 }

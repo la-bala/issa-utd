@@ -1,5 +1,5 @@
 <script>
-import JumbotronContact from '../components/JumbotronContact.vue';
+import JumbotronContact from '../components/jumbotrons/JumbotronContact.vue';
 import Socials from '../components/Socials.vue';
 
 export default {

@@ -1,5 +1,5 @@
 <script>
-import JumbotronBlog from '../components/JumbotronBlog.vue';
+import JumbotronBlog from '../components/jumbotrons/JumbotronBlog.vue';
 import hackingintocsc10Thumb from '@/assets/hackingintocsc10/thumb.jpg'
 
 export default {

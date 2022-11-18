@@ -25,13 +25,13 @@ export default {
                             </div>
                             <div class="carousel-inner">
                                 <div class='carousel-item active'>
-                                    <img class="d-block w-100" src="../assets/hackingintocsc10/0.jpg" alt="Slide 0">
+                                    <img class="d-block w-100" src="../assets/nov2022lunchandlearn/0.png" alt="Slide 0">
                                 </div>
                                 <div class='carousel-item'>
-                                    <img class="d-block w-100" src="../assets/hackingintocsc10/1.jpg" alt="Slide 1">
+                                    <img class="d-block w-100" src="../assets/nov2022lunchandlearn/1.png" alt="Slide 1">
                                 </div>
                                 <div class='carousel-item'>
-                                    <img class="d-block w-100" src="../assets/hackingintocsc10/2.jpg" alt="Slide 2">
+                                    <img class="d-block w-100" src="../assets/nov2022lunchandlearn/2.png" alt="Slide 2">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -46,21 +46,21 @@ export default {
                         <ul class="list-group list-group-flush border border-0">
                             <li class="list-group-item border border-0 bg-dark text-white">
                                 <ClockIcon :size="16"/>
-                                <span class="ms-1"> Sep 23, 2022</span>
+                                <span class="ms-1"> Nov 17, 2022</span>
                             </li>
                             <li class="list-group-item border border-0 bg-dark text-white" id="meetingLocation">
                                 <LocationIcon :size="16"/>
-                                <span class="ms-1"> Collin College - Spring Creek Campus</span>
+                                <span class="ms-1"> Maggiano's Little Italy</span>
                             </li>
                         </ul>
                         <div class="d-flex flex-column card-body">
-                            <h5 class="card-title">NTX ISSA CSC10</h5>
+                            <h5 class="card-title">Lunch and Learn</h5>
                             <p class="card-text">
-                                ISSA UTD joined the DFW security community for North Texas ISSA's 10th Annual Cybersecurity Conference! Students attended presentations, networked with cybersecurity leaders, and met with the student subchapter director to plan the official launch of ISSA UTD in Spring '23!
+                                ISSA UTD joined the DFW security community for North Texas ISSA's November Lunch and Learn at Maggiano's. We shared a meal with security leaders and spoke at the event to announce the formation of our new student subchapter!
                             </p>
                             <div class="row justify-content-center">
                                 <div class="col-6">
-                                    <RouterLink to="/blog/hackingintocsc10">
+                                    <RouterLink to="">
                                         <a class="btn btn-primary" role="button">Read More</a>
                                     </RouterLink>
                                 </div>
