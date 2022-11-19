@@ -23,12 +23,14 @@ export default {
                 <h1 class="display-4">Hi! We're the student subchapter of <a href="https://www.ntxissa.org" class="text-decoration-none" target="_blank" rel="noopener noreferrer">North Texas ISSA</a> at <a href="https://www.utdallas.edu" class="text-decoration-none" target="_blank" rel="noopener noreferrer">UT Dallas.</a></h1>
                 <p class="lead">We're a community dedicated to developing and connecting UTD's future cybersecurity leaders. No matter your background, let's kickstart our careers together.</p>
             </div>
-            <div class="col-lg-2 mb-3">
+            <div class="col-lg-3 mb-3">
                 <p class="lead fst-italic">connect with us!</p>
-                <DiscordIcon :size="32"/>
-                <InstagramIcon :size="32"/>
-                <TwitterIcon :size="32"/>
-                <EmailIcon :size="32"/>
+                <div>
+                    <DiscordIcon :size="32"/>
+                    <InstagramIcon :size="32"/>
+                    <TwitterIcon :size="32"/>
+                    <EmailIcon :size="32"/>
+                </div>
             </div>
             <div class="col-lg-2">
                 <p class="lead fst-italic">join us!</p>
