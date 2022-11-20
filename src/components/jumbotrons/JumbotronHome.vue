@@ -20,7 +20,7 @@ export default {
     <Jumbotron id="jumbotronHome">
         <template #content> 
             <div class="col-lg-7">
-                <h1 class="display-4">Hi! We're the student subchapter of <a href="https://www.ntxissa.org" class="text-decoration-none" target="_blank" rel="noopener noreferrer">North Texas ISSA</a> at <a href="https://www.utdallas.edu" class="text-decoration-none" target="_blank" rel="noopener noreferrer">UT Dallas.</a></h1>
+                <h1 class="display-4">Hi! We're the student subchapter of <a href="https://www.ntxissa.org" class="link text-decoration-none" target="_blank" rel="noopener noreferrer">North Texas ISSA</a> at <a href="https://www.utdallas.edu" class="link text-decoration-none" target="_blank" rel="noopener noreferrer">UT Dallas.</a></h1>
                 <p class="lead">We're a community dedicated to developing and connecting UTD's future cybersecurity leaders. No matter your background, let's kickstart our careers together.</p>
             </div>
             <div class="col-lg-3 mb-3">

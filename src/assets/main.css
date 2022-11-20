@@ -21,10 +21,6 @@ h1.section-heading {
     font-size: 3rem;
     margin-bottom: 3rem;
 }
-.blog-post-title {
-    font-size: 2rem;
-    margin-top: 3rem;
-}
 .team-member {
     margin-bottom: 3rem;
     text-align: center;
@@ -50,10 +46,10 @@ h1.section-heading {
 .icon-link:hover {
     color: #80e8ff;
 }
-.jumbotron .text-decoration-none, footer .text-decoration-none {
+.link {
     color: #a7efff;
 }
-.jumbotron .text-decoration-none:hover, footer .text-decoration-none:hover {
+.link:hover {
     color: #80e8ff;
     text-shadow: 0 0 8px white;
 }

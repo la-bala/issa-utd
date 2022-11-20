@@ -1,11 +1,13 @@
 <script>
-import Calendar from '../components/Calendar.vue';
 import JumbotronEvents from '../components/jumbotrons/JumbotronEvents.vue';
+import UpcomingEvents from '../components/UpcomingEvents.vue';
+import Calendar from '../components/Calendar.vue';
 
 export default {
     components: {
-        Calendar,
-        JumbotronEvents
+        JumbotronEvents,
+        UpcomingEvents,
+        Calendar
     }
 }
 
@@ -13,5 +15,10 @@ export default {
 
 <template>
     <JumbotronEvents/>
-    <Calendar/>
+    <section class="page-section" id="calendar">
+        <div class="container">
+            <UpcomingEvents/>
+            <Calendar/>
+        </div>
+    </section>
 </template>
