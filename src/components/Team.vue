@@ -1,3 +1,13 @@
+<script>
+import TeamMember from './TeamMember.vue';
+
+export default {
+    components: {
+        TeamMember
+    }
+}
+</script>
+
 <template>
     <section class="page-section" id="team">
         <div class="container">
@@ -8,48 +18,12 @@
                 <h2 class="section-heading">Officers</h2>
             </div>
             <div class="row">
-                <div class="col-6 col-md-4 col-xl-2">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="../assets/emptyprofile.png" alt="Akash Taduri's picture" />
-                        <h4 class="text-white">Akash Taduri</h4>
-                        <p class="text-muted">President</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-xl-2">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="../assets/emptyprofile.png" alt="Marzia Cava's picture" />
-                        <h4 class="text-white">Marzia Cava</h4>
-                        <p class="text-muted">Vice President (External Affairs)</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-xl-2">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="../assets/emptyprofile.png" alt="Justin Heo's picture" />
-                        <h4 class="text-white">Justin Heo</h4>
-                        <p class="text-muted">Vice President (Internal Affairs), Secretary</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-xl-2">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="../assets/emptyprofile.png" alt="Aravind Pallavoor's picture" />
-                        <h4 class="text-white">Aravind Pallavoor</h4>
-                        <p class="text-muted">Treasurer</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-xl-2">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="../assets/emptyprofile.png" alt="Mehak Dhawan's picture" />
-                        <h4 class="text-white">Mehak Dhawan</h4>
-                        <p class="text-muted">Marketing</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-4 col-xl-2">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="../assets/emptyprofile.png" alt="Leo Bala's picture" />
-                        <h4 class="text-white">Leo Bala</h4>
-                        <p class="text-muted">Head of Development</p>
-                    </div>
-                </div>
+                <TeamMember name="Akash Taduri" role="President"/>
+                <TeamMember name="Marzia Cava" role="Vice President (External Affairs)"/>
+                <TeamMember name="Justin Heo" role="Vice President (Internal Affairs), Secretary"/>
+                <TeamMember name="Aravind Pallavoor" role="Treasurer"/>
+                <TeamMember name="Mehak Dhawan" role="Marketer"/>
+                <TeamMember name="Leo Bala" role="Head of Development"/>
             </div>
             <div class="text-center text-white">
                 <h2 class="section-heading">Members</h2>
