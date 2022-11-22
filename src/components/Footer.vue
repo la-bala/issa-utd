@@ -18,12 +18,18 @@ export default {
     <div class="container">    
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center pb-3 mb-3">
-                <li class=""><DiscordIcon :size="32"/></li>
-                <li class="ms-3"><InstagramIcon :size="32"/></li>
-                <li class="ms-3"><TwitterIcon :size="32"/></li>
-                <li class="ms-3"><EmailIcon :size="32"/></li>
+                <li><DiscordIcon :size="36"/></li>
+                <li><InstagramIcon :size="36"/></li>
+                <li><TwitterIcon :size="36"/></li>
+                <li><EmailIcon :size="36"/></li>
             </ul>
-            <p class="text-center text-muted">© 2022 ISSA Subchapter UTD • Site by <a href="https://www.github.com/th3bala" class="link text-decoration-none" target="_blank" rel="noopener noreferrer">@th3bala</a></p>
+            <p class="text-center text-muted">© 2022 ISSA UTD Subchapter • Site by <a href="https://www.github.com/th3bala" class="link text-decoration-none" target="_blank" rel="noopener noreferrer">@th3bala</a></p>
         </footer>
     </div>
 </template>
+
+<style scoped>
+.nav {
+    gap: 40px;
+}
+</style>

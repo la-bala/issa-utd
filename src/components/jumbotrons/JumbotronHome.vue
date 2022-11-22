@@ -25,11 +25,11 @@ export default {
             </div>
             <div class="col-lg-3 mb-3">
                 <p class="lead fst-italic">connect with us!</p>
-                <div>
-                    <DiscordIcon :size="32"/>
-                    <InstagramIcon :size="32"/>
-                    <TwitterIcon :size="32"/>
-                    <EmailIcon :size="32"/>
+                <div id="icons" class="d-flex">
+                    <DiscordIcon :size="36"/>
+                    <InstagramIcon :size="36"/>
+                    <TwitterIcon :size="36"/>
+                    <EmailIcon :size="36"/>
                 </div>
             </div>
             <div class="col-lg-2">
@@ -41,6 +41,9 @@ export default {
 </template>
 
 <style scoped>
+#icons {
+    gap: 16px;
+}
 #jumbotronHome { 
     background-image: url("../../assets/jumbotron-bg0.jpg");
 }

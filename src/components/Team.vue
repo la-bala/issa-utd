@@ -17,13 +17,25 @@ export default {
             <div class="text-center text-white">
                 <h2 class="section-heading">Officers</h2>
             </div>
-            <div class="row">
-                <TeamMember name="Akash Taduri" role="President"/>
-                <TeamMember name="Marzia Cava" role="Vice President (External Affairs)"/>
-                <TeamMember name="Justin Heo" role="Vice President (Internal Affairs), Secretary"/>
-                <TeamMember name="Aravind Pallavoor" role="Treasurer"/>
-                <TeamMember name="Mehak Dhawan" role="Marketer"/>
-                <TeamMember name="Leo Bala" role="Head of Development"/>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-4 col-xl-2">
+                    <TeamMember name="Akash Taduri" role="President"/>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <TeamMember name="Marzia Cava" role="Vice President (External Affairs)"/>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <TeamMember name="Justin Heo" role="Vice President (Internal Affairs), Secretary"/>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <TeamMember name="Aravind Pallavoor" role="Treasurer"/>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <TeamMember name="Mehak Dhawan" role="Marketer"/>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                    <TeamMember name="Leo Bala" role="Head of Development"/>
+                </div>
             </div>
             <div class="text-center text-white">
                 <h2 class="section-heading">Members</h2>
@@ -36,13 +48,9 @@ export default {
             <div class="text-center text-white">
                 <h2 class="section-heading">Faculty Sponsor</h2>
             </div>
-            <div class = "row">
+            <div class = "row justify-content-center">
                 <div class="col">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="../assets/antonsobolev.png" alt="Anton Sobolev's picture" />
-                        <h4 class="text-white">Anton Sobolev</h4>
-                        <p class="text-muted">Assistant Professor of Political Economy and Cyber Policy</p>
-                    </div>
+                    <TeamMember name="Anton Sobolev" role="Assistant Professor of Political Economy and Cyber Policy"/>
                 </div>
             </div>
             <div class="text-center text-white">
