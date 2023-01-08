@@ -34,7 +34,7 @@ export default {
 
             Our officers broke ground on getting the subchapter officially recognized by meeting with Dr. Alena 
             Funtikova-White, the student subchapter director. We also met with Collin College's student subchapter and
-            discussed possible collaboration in the future. <br/><br/>
+            discussed collaboration in the future. <br/><br/>
 
             The warm sense of community at the event and the amount of expertise there was in one building were impressive.
             We'll be back for more NTX ISSA events soon.

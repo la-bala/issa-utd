@@ -19,44 +19,21 @@ export default {
             <div class="row justify-content-center">
                 <div class="py-2 col-md-8 col-xl-6">
                     <div class="card bg-dark text-white border border-secondary">
-                        <div id="carousel" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-indicators">
-                                <button v-for="i in 3" type="button" data-bs-target="#carousel" :data-bs-slide-to=i-1 :class="i === 1 ? 'active' : ''" :aria-current="i === 1 ? 'true' : ''" :aria-label="'Slide ' + i"></button>
-                            </div>
-                            <div class="carousel-inner">
-                                <div class='carousel-item active'>
-                                    <img class="d-block w-100" src="../assets/nov2022lunchandlearn/0.png" alt="Slide 0">
-                                </div>
-                                <div class='carousel-item'>
-                                    <img class="d-block w-100" src="../assets/nov2022lunchandlearn/1.png" alt="Slide 1">
-                                </div>
-                                <div class='carousel-item'>
-                                    <img class="d-block w-100" src="../assets/nov2022lunchandlearn/2.png" alt="Slide 2">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                        <img src="../assets/holidays.jpeg">
                         <ul class="list-group list-group-flush border border-0">
                             <li class="list-group-item border border-0 bg-dark text-white">
                                 <ClockIcon :size="16"/>
-                                <span class="ms-1"> Nov 17, 2022</span>
+                                <span class="ms-1"> Dec 7, 2022</span>
                             </li>
                             <li class="list-group-item border border-0 bg-dark text-white" id="meetingLocation">
                                 <LocationIcon :size="16"/>
-                                <span class="ms-1"> Maggiano's Little Italy</span>
+                                <span class="ms-1"> Pinstack Plano</span>
                             </li>
                         </ul>
                         <div class="d-flex flex-column card-body">
-                            <h5 class="card-title">Lunch and Learn</h5>
+                            <h5 class="card-title">Holiday Party</h5>
                             <p class="card-text">
-                                ISSA UTD joined the DFW security community for North Texas ISSA's November Lunch and Learn at Maggiano's. We shared a meal with security leaders and spoke at the event to announce the formation of our new student subchapter!
+                                ISSA UTD ringed in the upcoming holiday season with drinks, food, and bowling at NTX ISSA's Holiday Party!
                             </p>
                             <div class="row justify-content-center">
                                 <div class="col-6">
