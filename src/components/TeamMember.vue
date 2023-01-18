@@ -43,12 +43,12 @@ export default {
                 </div>
             </div>
         </div>
-        <h4 class="text-white">{{name}}</h4>
-        <p class="text-muted">{{role}}</p>
+        <h4 v-if="name != ''" class="text-white">{{name}}</h4>
+        <p v-if="role != ''" class="text-muted">{{role}}</p>
     </div>
 </template>
 
-<style>
+<style scoped>
 #memberCircle {
     position: relative;
     left: 50%;

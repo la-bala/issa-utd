@@ -1,9 +1,11 @@
 <script>
 import TeamMember from './TeamMember.vue';
+import Alumni from './Alumni.vue';
 
 export default {
     components: {
-        TeamMember
+        TeamMember,
+        Alumni
     }
 }
 </script>
@@ -56,6 +58,7 @@ export default {
             <div class="text-center text-white">
                 <h2 class="section-heading">Featured Alumni</h2>
             </div>
+            <Alumni name="Tahlla Taylor"/>
             <div class = "row text-center">
                 <div class="col md-6">
                     <a class="btn btn-outline-light" href="https://forms.gle/HCmthQK3XCK2J4D49" target="_blank" rel="noopener noreferrer" role="button">Request to Be Featured</a>
