@@ -12,7 +12,7 @@
                     <div class="col-8">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">ISSA UTD Kickoff</h5>
-                            <p class="card-text">ISSA UTD is ready to officially join the UTD community with a kickoff event in Spring 2023! Date and location TBD.</p>
+                            <p class="card-text">Join NTX ISSA president Sean Richards, subchapter director Alena Funtikova-White, and other UTD students interested in cybersecurity for our Spring kickoff! Free food will be provided!</p>
                         </div>
                     </div>
                 </div>
