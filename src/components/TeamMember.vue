@@ -21,7 +21,7 @@ export default {
                 "Marzia Cava": { avatar: emptyProfilePic, linkedin: "https://www.linkedin.com/in/marzia-cava/en", site: "" },
                 "Justin Heo": { avatar: emptyProfilePic, linkedin: "https://www.linkedin.com/in/justin-heo", site: "" },
                 "Aravind Pallavoor": { avatar: emptyProfilePic, linkedin: "https://www.linkedin.com/in/aravind-pallavoor", site: "" },
-                "Mehak Dhawan": { avatar: emptyProfilePic, linkedin: "https://www.linkedin.com/in/mehakdhawan1", site: "" },
+                "Manav Thakkar": { avatar: emptyProfilePic, linkedin: "https://www.linkedin.com/in/motrak/", site: "" },
                 "Leo Bala": { avatar: emptyProfilePic, linkedin: "https://www.linkedin.com/in/leobala/", site: "https://labala.us" },
                 "Anton Sobolev": { avatar: antonSobolevPic, linkedin: "", site: "https://asobolev.com/" }
             }

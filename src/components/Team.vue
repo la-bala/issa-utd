@@ -33,7 +33,7 @@ export default {
                     <TeamMember name="Aravind Pallavoor" role="Treasurer"/>
                 </div>
                 <div class="col-6 col-md-4 col-xl-2">
-                    <TeamMember name="Mehak Dhawan" role="Marketer"/>
+                    <TeamMember name="Manav Thakkar" role="Marketer"/>
                 </div>
                 <div class="col-6 col-md-4 col-xl-2">
                     <TeamMember name="Leo Bala" role="Head of Development"/>

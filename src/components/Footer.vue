@@ -23,7 +23,7 @@ export default {
                 <li><TwitterIcon :size="36"/></li>
                 <li><EmailIcon :size="36"/></li>
             </ul>
-            <p class="text-center text-muted">© 2023 ISSA UTD Subchapter • Site by <a href="https://www.github.com/th3bala" class="link text-decoration-none" target="_blank" rel="noopener noreferrer">@th3bala</a></p>
+            <p class="text-center text-muted">© 2023 ISSA UTD Subchapter • Site by <a href="https://www.github.com/th3bala" class="link text-decoration-none" target="_blank" rel="noopener noreferrer">Leo Bala</a></p>
         </footer>
     </div>
 </template>
